@@ -1,0 +1,30 @@
+<root>
+	<script>
+<!-- 		function ShowHeroSelection() {
+		    $.GetContextPanel().GetParent().GetParent().FindChild("PreGame").visible = true;
+		}
+		function HideHeroSelection() {
+		    $.GetContextPanel().GetParent().GetParent().FindChild("PreGame").visible = false;
+
+		}
+		function ShowHeroSel() {
+		    $.GetContextPanel().GetParent().GetParent().FindChildTraverse("MainContents").FindChildTraverse("ScreenContainer").FindChildTraverse("StrategyScreen").FindChildTraverse("RightContainer").style.visibility = "visible";
+		}
+
+		(function()
+		{
+		   $.GetContextPanel().GetParent().GetParent().FindChild("PreGame").visible = false;
+		    GameEvents.Subscribe( "show_hero_selection", ShowHeroSelection );
+		    GameEvents.Subscribe( "show_hero_sel", ShowHeroSel );
+		    GameEvents.Subscribe( "hide_hero_selection", HideHeroSelection );
+		})(); -->
+		
+	</script>
+		
+	<Panel>
+
+		<CustomUIElement type="GameInfo" 			layoutfile="file://{resources}/layout/custom_game/game_info.xml" />
+	</Panel>
+</root>
+
+

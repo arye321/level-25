@@ -12,6 +12,8 @@ local globalMeepo = nil;
 local globalMonkey = nil;
 local monkeyCount = 0;
 
+require("statcollection/init")
+
 if CAddonTemplateGameMode == nil then
 	CAddonTemplateGameMode = class({})
 end

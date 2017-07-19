@@ -1,0 +1,44 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+	</styles>
+
+	<Panel class="OverthrowLoadingRoot">
+		<Panel id="seq" >
+
+			<Image id="seq_bg" class="SeqBg" src="file://{images}/custom_game/loading_screen/loading_seq_bg.png" />
+			<Image id="seq_beastmaster" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_seq_beastmaster.png" />
+			<Image id="seq_juggernaut" class="SeqImg" src="file://{images}/custom_game/loading_screen/loading_seq_juggernaut.png" />
+
+		</Panel>
+		<Panel id="TitlePanel">
+			<Label id="OverthrowTitle" class="az" text="#addon_game_name" style="" />
+		</Panel>
+   	<Panel id="aghanimInfo">
+   				<Label id="aghanimTip" text="#aghanimTip" style="" />
+	    		<!-- <Image id="aghanim"  src="file://{images}/custom_game/game_info/aghanim.png" /> -->
+
+
+				
+				<Label id="aghanimTip2" text="#aghanimTip2" style="" />
+
+	    </Panel>
+		<Panel id="Developers">
+			
+	       <Label  text="   Created By:     "/>
+	       <Label text=" "/>
+	       <DOTAAvatarImage   class="avatar" steamid="76561197999349817" />
+	       <DOTAUserName id ="asdf" class="mynickname" steamid="76561197999349817" />
+	 
+
+
+	    </Panel>
+
+	
+
+	</Panel>
+
+
+
+</root>
